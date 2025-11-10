@@ -1,0 +1,262 @@
+/*FONTS*/
+@font-face{font-family:'titulofont';src:url('./fonts/NIKEA.otf')}
+@font-face{font-family:'corpofont';src:url('./fonts/Folks-Normal.ttf')}
+@font-face{font-family:'subtitulofont';src:url('./fonts/Folks-Bold.ttf')}
+
+/*TOP MENU*/
+.menu-bg{
+    background:#0057AD;
+    height: 105px;
+    display:flex;
+    align-items:center;
+}
+
+.menu{
+    width: 1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo img{
+    width: 170px;
+}
+
+ul{
+    display:flex;
+    gap: 30px;
+    list-style:none;
+}
+
+ul li a{
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.2s;
+    color:white;
+    font-size: 30px;
+    font-family:'corpofont';
+    text-decoration:none;
+}
+
+ul li a:hover{
+    background: #ffd000;
+    color:#000000;
+}
+
+/*HERO*/
+.hero{
+    min-height: 100vh;
+    padding-bottom: 120px;
+    background:url('imagens/ikea.png');
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-family:'titulofont';
+    padding-bottom: 100px;
+}
+
+.hero h1{
+    color: #ffd000;
+    font-size:60px;
+    letter-spacing:8px;
+    padding-bottom:550px;
+}
+
+/*BUTTON*/
+.button{
+    position:absolute;
+    padding-bottom: 180px;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.btn{
+    background: #00000071;
+    border: 1.5px solid #00000071;
+    border-radius: 12px;
+    padding: 17px 45px;
+    color: #ffd000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'subtitulofont';
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background:#85858571;
+  }
+
+/*BLOCO DE TXT E IMG*/
+.block{
+    width: 100%;
+    margin: 60px auto;
+    display:flex;
+    align-items:center;
+}
+
+.text{
+    padding: 40px 120px;
+    width: 50%;
+}
+
+.text h2{
+    font-family:'subtitulofont';
+    font-size: 42px;
+    margin-bottom: 20px;
+    color:#0057AD;
+}
+
+.text p{
+    font-family:'corpofont';
+    font-size:27px;
+    line-height:1.6;
+    color:#0056adda;
+}
+
+.image{
+    width:50%;
+    text-align:right;
+    margin-right:90px;
+}
+
+.image img{
+    width:750px;
+    display:block
+}
+
+/*ICONES*/
+.icons{
+    width:100%;
+    background:#ffd0003f;
+    padding:100px 0;
+    display:flex;
+    justify-content:center;
+}
+
+.icon{
+    width: 120%;
+    text-align:center;
+}
+
+.icon img{
+    width: 220px;
+    height: auto;
+}
+
+.icon h3{
+    margin-top: 14px;
+    font-family:'subtitulofont';
+    font-size: 40px;
+    color: #0057AD;
+}
+
+/*VIDEO*/
+video{
+    display:block;
+    width: 70%;
+    margin: 120px auto;
+    border-radius: 25px;
+}
+
+/*SURVEY*/
+.survey{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin:80px 0;
+}
+
+.question{
+    background:#f7f7f7;
+    padding: 40px 50px;
+    border-radius: 10px;
+    width:350px;
+    box-sizing:border-box;
+}
+
+.question h4{
+    font-size:22px;
+    font-family:'subtitulofont';
+    margin-bottom: 30px;
+    color: #0057AD;
+}
+
+.question ul{
+    list-style:none;
+    padding: 0;
+        font-size: 18px;
+    font-family:'corpofont';
+}
+
+/*SUBMIT*/
+.submit-area{
+    text-align:center;
+    margin:40px 0 120px;
+}
+
+.submit-btn{
+    background: #ffd000;
+    border:none;
+    padding: 18px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:'subtitulofont';
+    cursor:pointer;
+    color: #0057AD;
+}
+
+.btn:hover{
+    background:#85858571;
+  }
+  
+/*FOOTER*/
+.footer{
+    background:#0057AD;
+    padding: 30px;
+    color:white;
+}
+
+.footer-content{
+    max-width: 1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer-column h4{
+    font-family:'corpofont';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*NEWSLETTER*/
+.newsletter-form{
+    display:flex;
+    align-items:center;
+    gap: 10px;
+}
+
+.newsletter-form input{
+    padding: 8px 12px;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150px;
+}
+
+.newsletter-form button{
+    background: #ffd000;
+    border:none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family:'corpofont';
+    cursor:pointer;
+}
